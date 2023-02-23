@@ -101,12 +101,12 @@
 
         <hr class="col-md-12 mb-5">
 
-        <div class="row g-5">
+        <div class="row g-5 grid gap-3">
 
-          <div class="col-lg-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-            <h3>Programación HTML</h3>
+          <div class="col-lg-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded opacity-90">
+            <h3><a href="#h_html" id="h_html">Programación HTML</a></h3>
             <p>Diagramación de páginas web mediante HTML</p>
-            <ul class="icon-list ps-0">
+            <ul class="icon-list ps-0" id="html" style="display: none;">
               <li class="d-flex align-items-start mb-1">
                 <a href="https://www.w3schools.com/html/default.asp" rel="noopener" target="_blank">
                   Utilización de HTML 5
@@ -121,17 +121,18 @@
               <li class="text-muted d-flex align-items-start mb-1">
                 Manejo de modelo de cajas y sus propiedades
               </li>
+              <p>
+                <a href="#h_html" id="oc_html">ocultar</a>
+              </p>
             </ul>
           </div>
 
-          <div class="col-2"></div>
-
-          <div class="col-lg-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-            <h3>Hojas de estilo en cascada: CSS - Bootstrap</h3>
+          <div class="col-lg-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded opacity-90">
+            <h3><a href="#h_css" id="h_css">Hojas de estilo en cascada</a></h3>
             <p>Aplicanco diseño a la estructura realizada con HTML</p>
-            <ul class="icon-list ps-0">
+            <ul class="icon-list ps-0" id="css" style="display: none;">
               <li class="d-flex align-items-start mb-1">
-                Identificación de las distintas formas de aplicar estilo: inline, head, css
+                Distintas formas de aplicar estilo: inline, head, css
               </li>
               <li class="d-flex align-items-start mb-1">
                 <a href="https://www.w3schools.com/css/default.asp" target="_blank">
@@ -149,17 +150,18 @@
                   Aplicando diseño con Bootstrap
                 </a>
               </li>
+              <p><a href="#h_css" id="oc_css">ocultar</a></p>
             </ul>
           </div>
 
-          <div class="col-lg-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-            <h3>GIT - Versionado</h3>
+          <div class="col-lg-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded opacity-90">
+            <h3><a href="#h_git" id="h_git">GIT - Versionado</a></h3>
             <p>
-              Trazabilidad de las distintas etapas del desarrollo, guardando cada una de las etapas del avance como versiones particulares dentro del repositorio
+              Versiones de etapas del desarrollo. Repositorio
             </p>
-            <ul class="icon-list ps-0">
+            <ul class="icon-list ps-0" id="git" style="display: none;">
               <li class="d-flex align-items-start mb-1">
-                Utilización de principales comandos de GIT en el espacio de trabajo local
+                Comandos de GIT en el espacio de trabajo local
               </li>
               <li class="d-flex align-items-start mb-1">
                 <a href="https://github.com/1epicardo/curriculum" target="_blank">
@@ -167,20 +169,19 @@
                 </a>
               </li>
               <li class="d-flex align-items-start mb-1">
-                Utilización de comandos para subir las actualizaciones al repositorio
+                Comandos para subir las actualizaciones al repositorio
               </li>
               <li class="d-flex align-items-start mb-1">
                 Visualización de versiones
               </li>
+              <p><a href="#h_git" id="oc_git">ocultar</a></p>
             </ul>
           </div>
 
-            <div class="col-2"></div>
-
-          <div class="col-lg-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-            <h3>Java Script</h3>
+          <div class="col-lg-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded opacity-90">
+            <h3><a href="#h_js" id="h_js">Java Script</a></h3>
             <p>Dándole comportamiento a nuestra página</p>
-            <ul class="icon-list ps-0">
+            <ul class="icon-list ps-0" id="js" style="display: none;">
               <li class="d-flex align-items-start mb-1">
                 <a href="https://www.w3schools.com/js/default.asp" target="_blank">
                   Principales conceptos de javascript
@@ -206,11 +207,10 @@
                   xxxxxxx
                 </a>
               </li>
+              <p><a href="#h_js" id="oc_js">ocultar</a></p>
             </ul>
           </div>
           
-          <div class="col-1"></div>
-
         </div>
       </main>
       <footer class="pt-5 my-5 text-muted border-top">
@@ -218,9 +218,7 @@
       </footer>
     </div>
 
-
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-      
+    <script src="js/function.js"></script>
   </body>
 </html>
