@@ -23,6 +23,16 @@ document.getElementById("boton1").onclick = function () {
 }
 */
 
+document.getElementById('h_titulo').onclick = function () {
+    document.getElementById('titulo').style.display='';
+}
+
+document.getElementById('oc_titulo').onclick = function () {
+    document.getElementById('titulo').style.display='none';
+}
+
+
+
 document.getElementById('h_html').onclick = function () {
     document.getElementById('html').style.display='';
 }
