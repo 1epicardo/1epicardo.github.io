@@ -1,6 +1,14 @@
-document.getElementById('h_titulo').onclick = function () {
-    document.getElementById('titulo').style.display='';
+document.getElementById('m_home').onclick = function () {
+    document.getElementById('home').style.display='';
+    document.getElementById('conocimientos').style.display='none';
 }
+
+document.getElementById('m_conocimientos').onclick = function () {
+    document.getElementById('conocimientos').style.display='';
+    document.getElementById('home').style.display='none';
+}
+
+
 
 document.getElementById('oc_titulo').onclick = function () {
     document.getElementById('titulo').style.display='none';
